@@ -1,4 +1,4 @@
-module github.com/open-telemetry/opentelemetry-collector-contrib/processor/filterprocessor
+module github.com/anishp31/opentelemetry-collector-contrib/processor/filterprocessor
 
 go 1.23.0
 
@@ -97,6 +97,3 @@ retract (
 replace github.com/open-telemetry/opentelemetry-collector-contrib/pkg/pdatatest => ../../pkg/pdatatest
 
 replace github.com/open-telemetry/opentelemetry-collector-contrib/pkg/golden => ../../pkg/golden
-
-replace github.com/open-telemetry/opentelemetry-collector-contrib/processor/filterprocessor => github.com/anishp31/opentelemetry-collector-contrib/processor/filterprocessor
-
